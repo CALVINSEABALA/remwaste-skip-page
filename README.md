@@ -74,9 +74,16 @@ npm run dev
 
 ```
 
+Paste in to .env
+```bash
+NEXT_PUBLIC_SKIP_IMAGE_BASE=https://yozbrydxdlcxghkphhtq.supabase.co/storage/v1/object/public/skips/skip-sizes
+NEXT_BASE_URL=https://app.wewantwaste.co.uk/api/skips
+
+```
+
 5. Open the app in your browser
 
-Visit http://localhost:3000
+    Visit http://localhost:3000
 
 
 6. 📂 Project Structure
@@ -94,8 +101,8 @@ Visit http://localhost:3000
 
 
 
-👩‍💻 Author
-Developed with ❤️ by Calvin M Seabala
+                            👩‍💻 Author
+                Developed with ❤️ by Calvin M Seabala
 
 
 
