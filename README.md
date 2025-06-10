@@ -67,26 +67,29 @@ touch .env
 
 ```
 
-4. Run the start command
+4. Paste in to .env
 
 ```bash
-npm run dev
+        NEXT_PUBLIC_SKIP_IMAGE_BASE=https://yozbrydxdlcxghkphhtq.supabase.co/storage/v1/object/public/skips/skip-sizes
+        NEXT_BASE_URL=https://app.wewantwaste.co.uk/api/skips
 
 ```
 
-Paste in to .env
+5. Run the start command
+
 ```bash
-NEXT_PUBLIC_SKIP_IMAGE_BASE=https://yozbrydxdlcxghkphhtq.supabase.co/storage/v1/object/public/skips/skip-sizes
-NEXT_BASE_URL=https://app.wewantwaste.co.uk/api/skips
+    npm run dev
 
 ```
 
-5. Open the app in your browser
-
-    Visit http://localhost:3000
 
 
-6. 📂 Project Structure
+6. Open the app in your browser
+
+         Visit http://localhost:3000
+
+
+7. 📂 Project Structure
 
 ```bash
 
