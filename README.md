@@ -19,7 +19,7 @@ The design incorporates **glassmorphism** effects and smooth animations, all imp
 
 ## 📸 Demo
 
-- **Live Site:** [https://your-netlify-link.netlify.app](https://your-netlify-link.netlify.app)  
+- **Live Site:** [https://remwaste-skip-page.netlify.app/](https://remwaste-skip-page.netlify.app/)  
 - **Sandbox Preview:** [https://codesandbox.io/p/github/CALVINSEABALA/remwaste-skip-page/main?import=true](https://codesandbox.io/p/github/CALVINSEABALA/remwaste-skip-page/main?import=true)
 
 ---
@@ -48,6 +48,8 @@ Make sure you have Node.js installed (recommended version >= 14.x).
 git clone https://github.com/CALVINSEABALA/remwaste-skip-page.git
 cd remwaste-skip-page
 
+```
+
 
 2. Install Dependencies
 
@@ -56,16 +58,44 @@ cd remwaste-skip-page
 ```bash
 npm install
 
-
+```
 3. Create .env file
 
 
 ```bash
 touch .env
 
+```
 
-4 Run the start command
+4. Run the start command
+
+```bash
+npm run dev
+
+```
+
+5. Open the app in your browser
+
+Visit http://localhost:3000
+
+
+6. 📂 Project Structure
+
+```bash
+
+├── components/          # Reusable UI components 
+├── pages/               # Next.js pages and routing
+├── public/              # Static assets
+├── styles/              # Tailwind and global styles
+├── utils/               # API utilities and helpers
+└── .env                 # Environment variables (not committed to Git)
+
+```
+
 
 
 👩‍💻 Author
 Developed with ❤️ by Calvin M Seabala
+
+
+
