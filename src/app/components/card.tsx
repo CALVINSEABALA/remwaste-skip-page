@@ -1,9 +1,8 @@
 'use client';
-import { useState } from 'react';
 import { SKIPITEM } from '../models/skip-object';
 
 export default function Card({ isSelected, onSelect, ...cardData }: SKIPITEM){
-  ;
+
   
 
   const imageBaseUrl = process.env.NEXT_PUBLIC_SKIP_IMAGE_BASE;

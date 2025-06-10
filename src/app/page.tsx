@@ -11,14 +11,16 @@ import FooterBar from "./components/footer";
 
 export default function Home() {
   const [skips,setSkips] = useState([]) 
-  
+   const baseUrl = process.env.NEXT_BASE_URL  || "https://app.wewantwaste.co.uk/api/skips";
+   const fetchQuery = `${baseUrl}/by-location?postcode=NR32&area=Lowestoft`;
   const [selected, setSelected] = useState<SKIPITEM>();
   
+ 
   useEffect(() =>{
-  fetch('https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft')
+  fetch(fetchQuery)
   .then(response => response.json())
   .then(setSkips)
-},[])
+},[fetchQuery])
   return (
     
     <main className="flex flex-col items-center justify-betwee m-1 p-1">
